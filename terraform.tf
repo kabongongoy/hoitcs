@@ -18,8 +18,8 @@ terraform {
 provider "aws" {
   profile = "hoitcs-api"                                                 #local.workspace["aws_profile"]
   region  = "us-east-1"
-  access_key = var.AWS_ACCESS_KEY_ID
-  secret_key = var.AWS_SECRET_ACCESS_KEY
+  access_key = "AKIA4W3EF52DJCUXBGVM"                           #var.AWS_ACCESS_KEY_ID
+  secret_key = "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"
 
     default_tags {
       tags = {
