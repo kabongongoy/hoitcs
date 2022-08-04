@@ -17,7 +17,7 @@ terraform {
 # }
 provider "aws" {
   profile = "hoitcs-api"                                                 #local.workspace["aws_profile"]
-  region  = var.region
+  region  = var.aws_region
   access_key = "AKIA4W3EF52DJCUXBGVM"
   secret_key = "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"
 
