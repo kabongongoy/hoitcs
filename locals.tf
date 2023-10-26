@@ -2,14 +2,11 @@ locals {
   env = {
     global = {
       tags = {
-        # Repository       = "ts/aonsw-aws-platform/sns-cmd"
         Workspace        = terraform.workspace
         Matter           = "0001-00065"
         Purpose          = "SNS to Slack integration"
         Project          = "AWS Platform"
         Function         = "SNS to Slack integration"
-        # BusinessOwner    = "cio@audit.nsw.gov.au"
-        # ResponsibleParty = "cs.technology@audit.nsw.gov.au"
       }
     }
 
